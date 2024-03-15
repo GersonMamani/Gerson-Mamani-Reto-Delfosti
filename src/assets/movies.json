@@ -1,0 +1,47 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "genre": "Drama",
+      "ima": "../assets/img/shawshank.webp"
+    },
+    {
+      "id": 2,
+      "title": "Inception",
+      "description": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
+      "genre": "Action",
+      "ima": "../assets/img/inception.webp"
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "description": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "genre": "Action",
+      "ima": "../assets/img/darkknight.webp"
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "genre": "Crime",
+      "ima": "../assets/img/pulpfiction.webp"
+    },
+    {
+      "id": 5,
+      "title": "The Godfather",
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "genre": "Crime",
+      "ima": "../assets/img/goodfather.webp"
+    },
+    {
+      "id": 6,
+      "title": "Fight Club",
+      "description": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more.",
+      "genre": "Drama",
+      "ima": "../assets/img/fightclub.webp"
+    }
+  ],
+  "genres": ["Drama", "Action", "Crime"]
+}
