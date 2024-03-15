@@ -1,27 +1,51 @@
 # GersonMamani
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.12.
+### Reto técnico Delfosti:
 
-## Development server
+Este proyecto está desarrollado con :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Angular 16
+- node v18.19.0
+- Angular material
 
-## Code scaffolding
+## Configuración del Proyecto:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- 1. Instalar el Node modules
+     ` npm i `
+- 2. Ejecutar el Proyecto:
+     `ng serve`
+- 3. Visualizar el proyecto:
+     `http://localhost:4200/`
 
-## Build
+## Project Deployment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Este proyecto a sido desplegado mediante la plataforma Vercel
+  `https://gerson-mamani-reto-delfosti.vercel.app/`
 
-## Running unit tests
+## Descripción del Proyecto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Este proyecto consiste en una Búsqueda de Películas donde se
+lista un Json de Peliculas (alojadas en assest/movie.json)
+simulando el consumo de un API REST con la librería Axios y
+cuenta con un menú que consta de 3 filtros los cuales filtrarán
+dinámicamente la lista de películas. El menú permitirá filtrar
+por:
 
-## Running end-to-end tests
+1. Filtrar por Género (select múltiple): Este select esta cargado
+   mediante la variable generos_list, la cual se octuvo consumiendo
+   el método Listar().Con este filtro podrás seleccionar múltiples
+   géneros y filtrará dinámicamente el listado de peliculas.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. Filtro por Nombre de Película (Input): Mediante este filtro (Input)
+   podrás escribir el nombre de la película que deseas buscar (al ir
+   escribiendo se irá filtrando), si este se encuentra dentro del json
+   de películas brindado lo filtrará y mostrará de no ser así se mostrará
+   un mensaje de "Pélicula no encontrada".También se puede filtrar
+   de manera combinada.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Filtro por Descripción de Película (Input): Mediante este filtro
+   (Input) podrás escribir la descripción de la película que deseas buscar
+   (al ir escribiendo se irá filtrando), si este se encuentra dentro del
+   json de películas brindado lo filtrará y mostrará de no ser así se
+   mostrará un mensaje de "Pélicula no encontrada".También se puede filtrar
+   de manera combinada.
