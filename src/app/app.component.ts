@@ -11,6 +11,7 @@ import { VariableBinding } from '@angular/compiler';
 export class AppComponent implements OnInit {
   constructor(private service: AppService) {}
   title = 'gerson-mamani';
+  // variables
   public filtros: any = { genre: [], title: '', description: '' };
   public generos_list: string[] = [];
   public movies: movie_list[] = [];
@@ -21,18 +22,19 @@ export class AppComponent implements OnInit {
     this.listar_generos();
   }
 
+  // lista la data de las películas brindadas por el archivo JSON
   listar(): void {
     this.service
       .consumirJSONLocal()
       .then((data) => {
         this.movies = data.movies;
-        this.movies_list = this.movies; // aea por la weba esta ese
+        this.movies_list = this.movies;
       })
       .catch((error) => {
         console.error('Error al consumir el archivo JSON:', error);
       });
   }
-
+  // lista los géneros de las películas brindadas por el archivo JSON
   listar_generos(): void {
     this.service
       .consumirJSONLocal()
@@ -43,7 +45,7 @@ export class AppComponent implements OnInit {
         console.error('Error al consumir el archivo JSON:', error);
       });
   }
-
+  // función que se encarga de filtrar las películas por género, nombre y descripción
   filter() {
     let movies = this.movies;
     let filtros: any = {};
