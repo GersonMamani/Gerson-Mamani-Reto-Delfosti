@@ -11,9 +11,6 @@ import { VariableBinding } from '@angular/compiler';
 export class AppComponent implements OnInit {
   constructor(private service: AppService) {}
   title = 'gerson-mamani';
-  public genero: string[] = [];
-  public name: string = '';
-  public descripcion: string = '';
   public filtros: any = { genre: [], title: '', description: '' };
   public generos_list: string[] = [];
   public movies: movie_list[] = [];
