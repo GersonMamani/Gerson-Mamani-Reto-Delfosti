@@ -25,23 +25,12 @@
   display: flex;
   flex-direction: column;
   margin: 5px auto;
-  // flex-wrap: wrap;
-  // border: 1px solid blue;
   align-items: center;
   .card {
     width: 100%;
     margin: 10px;
-    // height: 80px;
-    // border-radius: 16px;
-    // border: 1px solid red;
     overflow: hidden;
     box-shadow: 1px 1px 7px #a9a4a4;
-    // img {
-    //   // width: auto;
-    //   // height: 50px;
-    //   width: 23rem;
-    //   height: 18rem;
-    // }
     transition: all 300ms;
     cursor: pointer;
   }
@@ -55,7 +44,6 @@
   width: 100%;
   box-sizing: border-box;
   img {
-    // width: auto;
     height: 24rem;
     width: 23rem;
     height: 20rem;
@@ -63,7 +51,6 @@
     transition: all 160ms;
   }
   .text {
-    // border: 1px solid purple;
     width: 100%;
     padding-top: 25px;
     background-color: #eff0f1;
@@ -109,29 +96,20 @@
 
 .not-found {
   width: 95%;
-  // height: auto;
   height: 58%;
-  // border: 1px solid blue;
   margin: 0px auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   overflow: hidden;
   box-sizing: border-box;
-  // flex-direction: column;
-  // align-items: center;
   h2 {
     color: #2495d7;
     font-family: "Encode Sans Expanded", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 37px;
-    // animation: som 1s infinite linear;
-    // transition: all 250ms;
-    // transition-duration: 0.5s;
     text-shadow: 0px 1px 2px #e07e2d;
-
-    // text-shadow: 0px 1px 2px #e07e2d;
   }
   img {
     animation: rotate 1s infinite linear;
@@ -170,15 +148,12 @@
   padding: 3px 10px;
 }
 .star {
-  // border: 1px solid red;
   height: fit-content;
 }
 .sepa {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  // border: 1px solid blue;
-  // margin: 0 16px;
   margin-right: 17px;
   height: fit-content;
 }
@@ -211,7 +186,6 @@
         font-size: 22px !important;
       }
       .sec {
-        // jj
         width: 11rem !important;
         margin: 8px 15px;
         margin-bottom: -34px;

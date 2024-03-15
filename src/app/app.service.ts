@@ -6,7 +6,8 @@ import axios from 'axios';
 })
 export class AppService {
   constructor() {}
-  // simular api
+  // simulando API REST mediante axios
+  // Este servicio nos da la data del archivo Json brindado
   async consumirJSONLocal(): Promise<any> {
     try {
       const respuesta = await axios.get('assets/movies.json');

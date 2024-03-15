@@ -129,25 +129,6 @@ $gerson-mamani-theme: mat.define-light-theme(
   )
 );
 
-// Define the palettes for your theme using the Material Design palettes available in palette.scss
-// (imported above). For each palette, you can optionally specify a default, lighter, and darker
-// hue. Available color palettes: https://material.io/design/color/
-// $gerson-mamani-primary: mat.define-palette(mat.$indigo-palette);
-// $gerson-mamani-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
-
-// // The warn palette is optional (defaults to red).
-// $gerson-mamani-warn: mat.define-palette(mat.$red-palette);
-
-// Create the theme object. A theme consists of configurations for individual
-// theming systems such as "color" or "typography".
-// $gerson-mamani-theme: mat.define-light-theme((
-//   color: (
-//     primary: $gerson-mamani-primary,
-//     accent: $gerson-mamani-accent,
-//     warn: $gerson-mamani-warn,
-//   )
-// ));
-
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
 // that you are using.
@@ -178,24 +159,14 @@ body {
   font-weight: bold;
 }
 
-// .mat-form-field-appearance-outline .mat-form-field-outline-thick {
-//   border-color: white;
-// }
-
 .mat-form-field-appearance-outline .mat-form-field-outline-thick {
   opacity: 0;
   opacity: inherit;
 }
 
-// aqui es importante elimina borde
 .mat-form-field-appearance-outline .mat-form-field-outline {
   color: white !important;
 }
-
-// .mat-form-field-appearance-outline .mat-form-field-outline-end {
-//   background-color: #d5edff;
-//   border-radius: 31px;
-// }
 
 .mat-form-field-appearance-outline .mat-form-field-outline-end {
   border-radius: 0 5px 5px 0;
@@ -218,14 +189,6 @@ body {
   color: rgb(141, 141, 141);
   font-weight: bold;
 }
-
-// // expansion panel
-// .mat-accordion .mat-expansion-panel:last-of-type {
-//   border-bottom-right-radius: 4px;
-//   border-bottom-left-radius: 4px;
-//   width: 13rem;
-//   // background-color: #d5edff;
-// }
 
 .mat-expansion-panel-body {
   padding: 0 24px 16px;
